@@ -1,0 +1,36 @@
+A customer is just getting started with Vercel and has questions about recommended options for third-party integrations for Monitoring or Logging.
+Knowing that:
+a. Vercel has in-house observability products,
+b. Vercel likes to guide on processes, but
+c. Vercel doesn’t like to steer customers towards one solution or another, but demonstrates what the product can do.
+How would you respond to the customer?
+
+
+Hi, [Customer Name],
+
+Greetings from Vercel! We are ecstatic that you are utilizing our platform. It's critical to comprehend the functionality and user experience of your project, and implementing monitoring or logging technologies is a wonderful place to start.
+
+Vercel has observability features like analytics and request logs built right in. But integrating with a third-party application can be quite helpful for a more complete picture.
+
+When selecting a monitoring or logging solution, take into account the following factors:
+
+What You Need: What precisely are you hoping to keep an eye on? Error tracking, user interactions, or server performance? Certain tools work well in certain situations.
+Warnings and Announcements: Do you prefer scheduled reports or do you need real-time notifications for important issues?
+Group Cooperation: Will several team members require access to and the ability to analyze data?
+
+Although we don't recommend any particular solutions, some common options among Vercel users are as follows:
+
+Logtail: Provides sophisticated filtering and alerting capabilities together with centralized log management and analysis.
+Sentry: Robust platform for tracking errors that offers in-depth analysis and instant alerts.
+Datadog: All-inclusive package of apps, infrastructure, and user behavior monitoring tools.
+
+Marketplace for Vercel Integrations:
+
+Many logging and monitoring solutions with seamless integration capabilities are available in the Vercel Integrations Marketplace at https://vercel.com/docs/integrations/create-integration. To choose the best option for your project, compare features, costs, and user reviews.
+Recall that Vercel is made to integrate easily with a wide range of external tools.  Please feel free to provide more information about your precise monitoring objectives so that we can assist you in finding the right instruments!
+
+Have fun building on Vercel!
+
+Regards,
+Arka Sengupta
+
