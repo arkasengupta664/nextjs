@@ -1,0 +1,5 @@
+How would you compare Next.js with another framework? Feel free to compare with a framework of your choice.
+
+Next.js is a React-based framework that offers server-side rendering and routing capabilities, akin to those of a backend. It can be used to create web applications from the ground up that work with a certain backend API. Next JS is ideal for developing news websites, e-commerce sites, and other online apps with a lot of traffic because of its speed.
+On the other hand, Angular is a framework that comes with built-in support for HTTP requests, forms, data binding, routing systems, and validation. Although not included in the official Angular package, Angular Universal and other Angular server-side rendering technologies can be used with the framework. When developing intricate and substantial online applications, such enterprise apps and systems that are essential to a business's operations, Angular is an excellent option. 
+Angular is your best option if you want to build large, intricate web applications; however, Next JS is your best option if you want to build high-performance online apps.
