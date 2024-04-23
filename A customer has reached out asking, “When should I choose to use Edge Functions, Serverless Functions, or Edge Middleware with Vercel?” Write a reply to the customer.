@@ -1,0 +1,17 @@
+Question: A customer has reached out asking, “When should I choose to use Edge Functions, Serverless Functions, or Edge Middleware with Vercel?” Write a reply to the customer.
+
+Hi [customer name],
+
+Excellent query! Depending on your goals, you can choose the optimal alternative. Here's a summary to aid in your decision:
+
+Edge Functions: The best choice for economy and speed. Their lightning-fast performance is achieved by running lightweight JavaScript code right at the edge, closest to the user. For activities like basic data manipulations, A/B testing, and image modification, they are ideal. They do, however, have some limits, like a lower code size, timeout constraints, and limited access to some Node.js APIs.
+Serverless Functions: Provide greater power and flexibility. Because they operate in a Node.js environment, you have access to a greater selection of libraries and features. They are therefore appropriate for intricate database queries, API integrations, and backend logic. Nevertheless, cold starts may incur additional costs and result in minor delays when compared to Edge Functions.
+Edge Middleware: Serving as a layer of pre-processing for serverless functions is Edge Middleware. Before requests reach your serverless functions, it intercepts them. This enables you to carry out operations at the edge, such as data manipulation, authentication, and request rewriting. It is an effective tool for optimizing requests prior to their interaction with your backend logic.
+
+Hope this information helps! Please feel free to reach out to me in case you have any further questions.
+
+Regards,
+Arka Sengupta
+
+
+
