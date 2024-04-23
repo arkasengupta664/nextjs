@@ -1,0 +1,24 @@
+Question: A customer, new to Next.js and Vercel, asks about overages regarding serverless function execution. What would be the best way to help mitigate this?
+
+Hi [Customer Name],
+
+Greetings from the fascinating world of Vercel and Next.js! It makes sense to be skeptical of serverless function executions, particularly in light of overages. The following tactics will assist you in lessening them:
+
+Enhancing Operations:
+  -Keep Efficiency in Mind: Examine your serverless functions. Is there any logic you can simplify to shorten the execution time? Significant gains can be achieved by eliminating pointless code or streamlining     database queries.
+  -Caching Conscientiously: When feasible, use caching methods. This can drastically cut down on how frequently your functions must be run for routine operations. An excellent place to start is using the built-in edge caching that Vercel provides.
+  -Appropriate-sized Memory: You can customize the memory allotted to your serverless functions with Vercel. If your features are simple, think about utilizing a smaller memory size to optimize costs.
+
+Recognizing Usage Trends
+  -Find the Root Causes: Examine Vercel's serverless function analytics to determine which functions are mostly responsible for your overages. This will support your efforts to prioritize optimization.
+  -Serverless vs. Static: Give careful thought to whether a specific feature belongs on a serverless function or a statically created Next.js page. Serving pre-rendered content is a strength of static pages, which lessens the need for serverless functions.
+
+Making Use of Vercel Features
+  -Use Incremental Static Regeneration (ISR) if you have recurring updates for your dynamic content. In order to reduce serverless function executions for incoming requests until the content needs to be refreshed, ISR pre-renders pages at predetermined intervals.
+  -Edge Features (Optional): Consider employing Vercel Edge Functions for some operations if you want blazing-fast performance and cost-effectiveness. They are the best choice for light-duty jobs like data retrieval and image editing because they operate closer to users at the network edge.
+
+Feel free to share more details about your project, and I can provide more specific guidance!
+Happy building with Next.js and Vercel!
+
+Regards,
+Arka Sengupta
