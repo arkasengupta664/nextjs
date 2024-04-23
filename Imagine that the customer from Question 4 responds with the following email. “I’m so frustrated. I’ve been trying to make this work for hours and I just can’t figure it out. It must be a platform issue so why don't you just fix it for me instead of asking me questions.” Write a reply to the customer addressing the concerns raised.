@@ -1,0 +1,24 @@
+Question: Imagine that the customer from Question 4 responds with the following email.
+“I’m so frustrated. I’ve been trying to make this work for hours and I just
+can’t figure it out. It must be a platform issue so why don't you just fix it for
+me instead of asking me questions.”
+Write a reply to the customer addressing the concerns raised.
+
+
+Hi [customer name],
+
+I can appreciate how frustrating it is for you to have to put up the redirect for the /blog path. If the prior choice appeared complicated, I apologize. Vercel redirection are usually quite simple, although I can understand how it could be incredibly discouraging to spend hours troubleshooting.
+Let's take a different tack to rapidly settle this. Could you elaborate on the particular problems you're having with the redirect setup? Do you have any error messages visible?
+
+We can troubleshoot together in the following two ways:
+1. Walkthrough: If it's convenient for you, I can take you step-by-step through the Vercel redirect setup. Together, we can walk through the settings page and make sure everything is set up properly.
+2. API Route Help: I can assist you in going over the code to make sure it's operating as intended if you're using a Next.js application and prefer the API Route technique.
+
+The likelihood of this being a platform issue is quite low. Vercel redirects are a well-known feature, and problems can frequently be identified and resolved through debugging.
+I'm determined to support you in completing this redirect. Don't be afraid to share the specifics of your previous attempts with us so that we can collaborate to find a solution.
+For more information in the interim, go to https://vercel.com/docs/edge-network/redirects, which is the Vercel documentation on redirects.
+
+I appreciate your patience and hope to hear from you soon.
+
+Regards,
+Arka Sengupta
