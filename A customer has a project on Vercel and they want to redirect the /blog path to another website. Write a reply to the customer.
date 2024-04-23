@@ -1,0 +1,21 @@
+Question: A customer has a project on Vercel and they want to redirect the /blog path to another website. Write a reply to the customer.
+
+Hi [customer name],
+
+Vercel provides a simple method for rerouting your project's /blog path to a different website. Here's how to make this happen:
+
+The easiest way to do this is by using Vercel Redirects, which is effective in most situations. This is what you must do: 
+1. Open the settings for your Vercel project. 
+2. Go to the "Settings" menu. 
+3. Locate the area marked "Redirects". 
+4. Next, select "Add Redirect". 
+5. Type "/blog" in the "Source" section, including the quotes. 
+6. Type the complete URL (including https:// or http://) of the website you wish to redirect them to in the "Destination" section. 
+7. One can select a type of redirect: 
+  - 301 (Permanent): For long-term redirects, this is the suggested choice. The new location will be reflected in the indexing updates that search engines make. 
+  - If the redirection is only temporary, use 302 (Temporary). 
+
+Hope this information helps! Please feel free to reach out in case you have any further queries.
+
+Regards,
+Arka Sengupta
